@@ -71,7 +71,9 @@
 - (IBAction)buttonTermAndConditionTapped:(id)sender {
     
 }
-
+- (IBAction)buttonBackArrowTapped:(id)sender{
+    
+}
 - (IBAction)buttonSignInConnectTapped:(id)sender {
 }
 
@@ -79,7 +81,8 @@
 }
 
 - (IBAction)buttonDateDoneTapped:(id)sender {
-    _textFieldBirthdate.text= [self formatDate:_datePicker.date];;
+    _textFieldBirthdate.text= [self formatDate:_datePicker.date];
+    [_textFieldBirthdate resignFirstResponder];
     [UIView animateWithDuration:0.3 animations:^{
         self.datePickerView.center = CGPointMake(self.datePickerView.center.x, self.datePickerView.center.y + self.datePickerView.frame.size.height);
     } completion:^(BOOL finished){
