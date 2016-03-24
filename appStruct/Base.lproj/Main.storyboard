@@ -88,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EFW-LD-osM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1202" y="1063"/>
+            <point key="canvasLocation" x="1178" y="1063"/>
         </scene>
         <!--QR-->
         <scene sceneID="Dzf-Dn-BeH">
@@ -352,6 +352,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Qc-Hz-VLv">
                                                 <rect key="frame" x="11" y="231" width="294" height="59"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <segue destination="4cO-WJ-EtJ" kind="modal" id="AeB-3b-xGi"/>
+                                                </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line.png" id="eM1-BM-dVx" userLabel="line.png">
                                                 <rect key="frame" x="15" y="215" width="290" height="2"/>
@@ -379,9 +382,6 @@
                                                         <date key="date" timeIntervalSinceReferenceDate="480487235.23805201">
                                                             <!--2016-03-24 04:40:35 +0000-->
                                                         </date>
-                                                        <connections>
-                                                            <segue destination="4cO-WJ-EtJ" kind="modal" id="lcO-yr-QyH"/>
-                                                        </connections>
                                                     </datePicker>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gNy-xG-FXd">
                                                         <rect key="frame" x="160" y="0.0" width="160" height="38"/>
@@ -583,8 +583,8 @@
         <image name="username.png" width="100" height="96"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lcO-yr-QyH"/>
-        <segue reference="GOV-sZ-8rn"/>
+        <segue reference="Qk5-sY-ogM"/>
         <segue reference="PMe-yB-t0p"/>
+        <segue reference="GOV-sZ-8rn"/>
     </inferredMetricsTieBreakers>
 </document>
